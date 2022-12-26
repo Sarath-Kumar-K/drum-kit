@@ -7,54 +7,60 @@
     <title>Drum Kit</title>
     <!--bootstrap css-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--external css-->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container text-light bg-dark text-center">
+    <section class="header">
+    <div class="container-fliud text-light text-center">
     <h2 class="pt-5 fw-bold">
         Drum Kit 
     </h2>
     <p class="p-2 fw-normal">Click on alphabet to play sound</p>
     </div>
-    <div class="container mt-5">
-    <div class="row g-4 keys">
-        <div class="col text-center bg-dark key">
-            <kbd class="text-light">A</kbd>
-            <span class="sound text-info">CLAP</span>
+    </section>
+    <section class="drum">
+    <div class="container">
+    <div class="row gap-md-3 gap-lg-4 gap-sm-2 mx-1 keys">
+        <div data-key="65" class="col-md-1 col-sm-1 text-center key">
+            <kbd class="text-light fw-bold fs-3">A</kbd>
+            <p class="sound text-info">CLAP</p>
         </div>
-        <div class="col text-center bg-dark key">
-            <kbd class="text-light">S</kbd>
-            <span class="sound text-info">HIHAT</span>
+        <div data-key="83" class="col-md-1 col-sm-1 text-center key">
+            <kbd class="text-light fw-bold fs-3">S</kbd>
+            <p class="sound text-info" >HIHAT</p>
         </div>
-        <div class="col text-center bg-dark key">
-            <kbd class="text-light">D</kbd>
-            <span class="sound text-info">KICK</span>
+        <div data-key="68" class="col-md-1 col-sm-1 text-center key">
+            <kbd class="text-light fw-bold fs-3">D</kbd>
+            <p class="sound text-info" >KICK</p>
         </div>
-        <div class="col text-center bg-dark key">
-            <kbd class="text-light">F</kbd>
-            <span class="sound text-info">OPENHAT</span>
+        <div data-key="70" class="col-md-1 col-sm-1 text-center key">
+            <kbd class="text-light fw-bold fs-3">F</kbd>
+            <p class="sound text-info" >OPENHAT</p>
         </div>
-        <div class="col text-center bg-dark key">
-            <kbd class="text-light">G</kbd>
-            <span class="sound text-info">BOOM</span>
+        <div data-key="71" class="col-md-1 col-sm-1 text-center key">
+            <kbd class="text-light fw-bold fs-3">G</kbd>
+            <p class="sound text-info" >BOOM</p>
         </div>
-        <div class="col text-center bg-dark key">
-            <kbd class="text-light">H</kbd>
-            <span class="sound text-info">RIDE</span>
+        <div data-key="72" class="col-md-1 col-sm-1 text-center key">
+            <kbd class="text-light fw-bold fs-3">H</kbd>
+            <p class="sound text-info" >RIDE</p>
         </div>
-        <div class="col text-center bg-dark key">
-            <kbd class="text-light">J</kbd>
-            <span class="sound text-info">SNARE</span>
+        <div data-key="74" class="col-md-1 col-sm-1 text-center key">
+            <kbd class="text-light fw-bold fs-3">J</kbd>
+            <p class="sound text-info" >SNARE</p>
         </div>
-        <div class="col text-center bg-dark key">
-            <kbd class="text-light">K</kbd>
-            <span class="sound text-info">TOM</span>
+        <div data-key="75" class="col-md-1 col-sm-1 text-center key">
+            <kbd class="text-light fw-bold fs-3">K</kbd>
+            <p class="sound text-info" >TOM</p>
         </div>
-        <div class="col text-center bg-dark key">
-            <kbd class="text-light">L</kbd>
-            <span class="sound text-info">TINK</span>
+        <div data-key="76" class="col-md-1 col-sm-1 text-center key">
+            <kbd class="text-light fw-bold fs-3">L</kbd>
+            <p class="sound text-info" >TINK</p>
         </div>
     </div>
     </div>
+    </section>
 
     <!--sound -->
 
